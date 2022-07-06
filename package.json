@@ -1,0 +1,26 @@
+{
+  "name": "projeto_nodeexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielAnjosMagalhaes/Projeto_NodeExpress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielAnjosMagalhaes/Projeto_NodeExpress/issues"
+  },
+  "homepage": "https://github.com/GabrielAnjosMagalhaes/Projeto_NodeExpress#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

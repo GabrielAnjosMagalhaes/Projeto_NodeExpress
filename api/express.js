@@ -22,6 +22,8 @@ const criandoApi = [
         info2: "alguma coisa"
     }
 ]
+// para buscar informações: res.status(200).render|("nomedoarquivo)"|,|({info: informacaoQueVoceQuerPassar})| 
+//nesse caso usei o index vindo da pasta views
 res.status(200).render("index", {info: criandoApi})
 })
 

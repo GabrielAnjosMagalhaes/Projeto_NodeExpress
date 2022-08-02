@@ -1,3 +1,22 @@
 body{
-    background-color: aqua;
+    min-height: 100vh;
+    background: linear-gradient(310deg, #000555, #005555);
+    color: aliceblue;
+    
+}
+
+.info{
+text-align: center;
+font-size: 25px;
+}
+
+.divInfo{
+    background-color: aliceblue;
+    color: #005555;
+
+    padding: 2px;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    margin-top: 4.125%;
+    border-radius: 8px;
 }

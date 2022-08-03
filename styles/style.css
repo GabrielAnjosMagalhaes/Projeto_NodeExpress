@@ -1,5 +1,5 @@
 body{
-    min-height: 100vh;
+    min-height: 96.5vh;
     background: linear-gradient(310deg, #000555, #005555);
     color: aliceblue;
     
@@ -16,7 +16,8 @@ font-size: 25px;
 .divInfo{
     background-color: aliceblue;
     color: #005555;
-
+    border-style: hidden;
+ 
     padding: 2px;
     margin-left: 16.5%;
     margin-right: 16.5%;

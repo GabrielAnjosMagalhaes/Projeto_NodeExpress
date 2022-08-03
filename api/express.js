@@ -17,25 +17,25 @@ const ditadosAPI = [
         prov1: "Conselho 1: Cobra que não anda, não engole sapo."       
     },
     {
-        prov1: "Conselho 2: Muito ajuda quem não atrapalha."       
+        prov2: "Conselho 2: Muito ajuda quem não atrapalha."       
     },
     {
-        prov1: "Conselho 3: Não há que ser forte. Há que ser flexível."       
+        prov3: "Conselho 3: Não há que ser forte. Há que ser flexível."       
     },
     {
-        prov1: "Conselho 4: Macaco velho não mete a mão em cumbuca."       
+        prov4: "Conselho 4: Macaco velho não mete a mão em cumbuca."       
     },
     {
-        prov1: "Conselho 5: A palavra é prata, o silêncio é ouro."       
+        prov5: "Conselho 5: A palavra é prata, o silêncio é ouro."       
     },
     {
-        prov1: "Conselho 6: Passarinho que acompanha morcego acorda de cabeça para baixo."       
+        prov6: "Conselho 6: Passarinho que acompanha morcego acorda de cabeça para baixo."       
     },
     {
-        prov1: "Conselho 7: Não há bem que sempre dure, nem mal que nunca se acabe."       
+        prov7: "Conselho 7: Não há bem que sempre dure, nem mal que nunca se acabe."       
     },
     {
-        prov1: "Conselho 8: Se queres a paz, prepara-te para a guerra."       
+        prov8: "Conselho 8: Se queres a paz, prepara-te para a guerra."       
     }
 ]
 

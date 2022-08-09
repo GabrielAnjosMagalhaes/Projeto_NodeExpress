@@ -12,6 +12,7 @@ app.get('/home', (req, res) => {
 })
 
 app.get('/nossaapi', (req, res) => {
+    var item=0;
 const ditadosAPI = [
     {
         prov1: "Conselho 1: Cobra que não anda, não engole sapo."       
@@ -38,11 +39,19 @@ const ditadosAPI = [
         prov8: "Conselho 8: Se queres a paz, prepara-te para a guerra."       
     }
 ]
+item=ditadosAPI[Math.floor(Math.random()*ditadosAPI.length)]
+// item= Math.floor(Math.random()*7)
+// console.log(ditadosAPI.length)
+//  for(i=0;i<ditadosAPI.length ;i++){
+//       item= Math.floor(Math.random()*7)
+      
+//  }
+ console.log(item)
 
 
 // para buscar informações: res.status(200).render|("nomedoarquivo)"|,|({info: informacaoQueVoceQuerPassar})| 
 //nesse caso usei o index vindo da pasta views
-res.status(200).render("index", {info: ditadosAPI})
+res.status(200).render("index", {info: ditadosAPI}), res.render("index", {item:item})
 })
 
 

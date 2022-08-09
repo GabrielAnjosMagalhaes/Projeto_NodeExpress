@@ -12,9 +12,8 @@
     <div class="divInfo">
         <form action="/action_page.php">
             <label class="info" for="addNovoDitado">Adicionar novo ditado: </label><br>
-            <input class="input" type="text" id="newDitado" name="newDitado"><br><br>
-
-            <label class="info" for="buscarDitado">Clique no botão abaixo para ver um ditado aleátorio:</label><br>
+            <input class="input" type="text" id="newDitado" name="newDitado"><br><br> 
+            <label class="info" for="buscarDitado">Clique no botão abaixo para ver um ditado aleatório:</label><br>
             <input class= "button" type="button" value="Buscar por um ditado">
             
         </form>
@@ -22,13 +21,23 @@
         
 
     <% info.forEach(element =>{ %>
-        <p class="info"> <%= element.prov1%> <!-- <%=element.prov2%> --> </p>
+        <p class="info"> <%= element.prov2%> <!-- <%=element.prov2%> --> </p>
+       
         <% }) %>
+        
+        <% item.forEach(element =>{ %>
+            <p class="info"> <%= element.item%> <!-- <%=element.prov2%> --> </p>
+           
+            <% }) %>
+        
+        
+            
+            
+       
         
     </div>
         <!-- <label for="lname">Last name:</label>
             <input type="text" id="lname" name="lname"><br><br>
             <input type="submit" value="Submit"> -->
-<script src="/Script/script.js"></script>
 </body>
 </html>

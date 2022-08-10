@@ -1,42 +1,70 @@
 body{
+    font-family: 'Poppins', sans-serif;
     min-height: 96.5vh;
     background: linear-gradient(310deg, #000555, #005555);
     color: aliceblue;
+    display: flex;
+    justify-content: center;
     
 }
 
+.item-info{
+    text-shadow: black;
+    font-size: 25px;
+    font-weight: 300;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
 .info{
-text-shadow: black;
-margin-left: 20px;
-margin-right: 50px;
-text-align: justify;
-font-size: 25px;
+    text-shadow: black;
+    font-size: 25px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
 }
 
 .divInfo{
     background-color: aliceblue;
     color: #005555;
-    border-style: hidden;
  
-    padding: 2px;
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    margin-top: 4.125%;
+    padding: 40px;
     border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 150px;
+
+    width: 50%;
+    height: 50%;
+}
+
+.div-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .button{
 background-color: #005555;
 color: aliceblue;
+border: none;
+font-family: 'Poppins', sans-serif;
 
-padding:5px;
-margin-left: 22%;
-border-radius: 15px;
-min-width: 33%;
-margin-top: 2%;
-margin-bottom: 2%;
-transition: 0.8s ease all;
+display: flex;
+justify-content: center;
+align-items: center;
 
+width: 350px;
+height: 45px;
+border-radius: 8px;
+transition: 0.3s ease all;
 
 }
 
@@ -56,7 +84,3 @@ min-width: 33%;
 margin-top: 2%;
 margin-bottom: 2%;
 }
-
-/*https://www.pensador.com/proverbios_e_ditados_populares/
-https://medium.com/reactbrasil/10-apis-gr%C3%A1tis-e-legais-para-voc%C3%AA-consumir-69141988ea0b
-*/

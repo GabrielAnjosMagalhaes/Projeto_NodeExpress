@@ -8,37 +8,22 @@
     <title>ApiDitados</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/styles/img/icon.png">
+    <!-- font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="divInfo">
         <form action="/nossaapi">
-            <label class="info" for="addNovoDitado">Adicionar novo ditado: </label><br>
-            <input class="input" type="text" id="newDitado" name="newDitado"><br><br>
+            <!-- <label class="info" for="addNovoDitado">Adicionar novo ditado: </label><br>
+            <input class="input" type="text" id="newDitado" name="newDitado"><br><br> -->
             <label class="info" for="buscarDitado">Clique no botão abaixo para ver um ditado aleatório:</label><br>
-            <input class="button" type="submit" value="Buscar por um ditado">
-
+            <div class="div-button">
+                <input class="button" type="submit" value="Buscar por um ditado">
+            </div>
+            <p class="item-info"> <%= Object.values(item) %> </p>
         </form>
-
-
-
-        <!-- <% info.forEach(element =>{ %>
-        <p class="info"> <%= element.prov2%>  <%=element.prov2%> </p>     
-        <% }) %> -->
-
-
-        <p class="info"> <%= Object.values(item) %> </p>
-
-
-
-
-
-
-
     </div>
-    <!-- <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
-            <input type="submit" value="Submit"> -->
 </body>
 
 </html>

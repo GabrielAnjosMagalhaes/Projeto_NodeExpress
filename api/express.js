@@ -39,19 +39,22 @@ const ditadosAPI = [
         prov8: "Conselho 8: Se queres a paz, prepara-te para a guerra."       
     }
 ]
+
+
+// ditadosAPI.push("Conselho 9: Se queres a paz, prepara-te para a guerra.")
+//  console.log(`${ditadosAPI}`)
+
 item=ditadosAPI[Math.floor(Math.random()*ditadosAPI.length)]
+console.log(item)
+
 // item= Math.floor(Math.random()*7)
 // console.log(ditadosAPI.length)
 //  for(i=0;i<ditadosAPI.length ;i++){
-//       item= Math.floor(Math.random()*7)
-      
+//       item= Math.floor(Math.random()*7) 
 //  }
- console.log(item)
-
-
 // para buscar informações: res.status(200).render|("nomedoarquivo)"|,|({info: informacaoQueVoceQuerPassar})| 
 //nesse caso usei o index vindo da pasta views
-res.status(200).render("index", {info: ditadosAPI}), res.render("index", {item:item})
+res.status(200).render("index", {info: ditadosAPI, item: item})
 })
 
 
